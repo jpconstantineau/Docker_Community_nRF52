@@ -1,4 +1,5 @@
-FROM jpconstantineau/arduino-cli-bluefruit-nrf52:latest 
+FROM ghcr.io/jpconstantineau/docker_bluefruit_nrf52:latest 
+LABEL org.opencontainers.image.source="https://github.com/jpconstantineau/Docker_Community_nRF52"
 
 COPY arduino-cli.yaml /
 RUN arduino-cli core update-index
