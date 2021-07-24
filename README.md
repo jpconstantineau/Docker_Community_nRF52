@@ -1,5 +1,5 @@
 # Community_nRF52_Arduino Docker Container
-Docker image for compiling nRF52 Community code using the Arduino cli docker image 
+Docker image for compiling nRF52 Community code using the Arduino cli docker image.
 
 
 Uses the latest release![Community BSP for releases](https://img.shields.io/github/release/jpconstantineau/Community_nRF52_Arduino.svg) 
