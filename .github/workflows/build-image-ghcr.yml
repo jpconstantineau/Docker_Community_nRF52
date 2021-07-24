@@ -3,7 +3,7 @@ name: Build and publish container to ghcr.io
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
